@@ -1,6 +1,9 @@
 import typing
 
+from benchmark_string_filter.benchmark import st_time
 
+
+@st_time
 def detect_special_characters(
     input_str: str,
 ) -> typing.Tuple[bool, typing.Optional[str]]:
